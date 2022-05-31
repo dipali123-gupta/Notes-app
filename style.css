@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    background-color: #ec8282;
+    color: hsl(0, 0%, 100%, 60%);
+    padding: 1.25rem;
+  }
+  
+  .container {
+    padding: 1.25rem;
+    background-color:#f3a8a8;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    height: fit-content;
+    max-width: 500;
+    margin-top: 10rem;
+    border: 3px solid #ec7aaa
+    
+  }
+  .container h1{
+    color:blanchedalmond;
+    cursor: pointer;
+  }
+  .container h4{
+      padding: 1.5rem;
+      color: beige;
+  }
+
+  .container textarea{
+      background-color: #f3c7c7;
+      border-radius: 3%;
+      border-color: #ec7aaa;
+  }
+
+  .container button{
+    background-color:rgb(243, 108, 153);
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: left;
+    text-decoration:blueviolet;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 1.5rem;
+
+
+  }
+  .container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+ .card{
+   background-color: #ec7aaa;
+   
+ }
+  @media (min-width: 700px) {
+    .container {
+      width: 300px;
+      margin: 0 auto 1rem;
+      margin-top: 3rem;
+    }
+  }
+  @media (min-width: 700px) {
+    .container2 {
+      
+      margin: 0 auto 1rem;
+      margin-top: 2rem;
+    }
+    
+
+  }
